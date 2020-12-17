@@ -11,7 +11,7 @@ There are 14,640 rows and 15 columns in the data set. The included features are:
 # Part 1: 
 As a warmup, consider the sentiment groups of negative, neutral, and positive tweets (airline_sentiment column). For each sentiment group, rank the words used in the text of tweets (tweet text column) by frequency. Eliminate airline names and @-words, as well as stop words and punctuation. 
 
-#Part 2: 
+# Part 2: 
 Train a classification model of sentiment as a function of the tweet text. You can use any classification method we studied (no neural nets or others we haven't studied). Use 80% of the data rows for training, and the rest 20% for testing (careful, sample randomly as the tweets are ordered by airline and you want to make sure each airline is represented in both the training and test data). Then, process the text data using best practices in NLP text processing, e.g., eliminate airline names and @-words, any special character words, as well as stop words and punctuation. You may want to lowercase all the words too. If you want to go the extra step, you can use POS-tagging and lemmatization.
 
 # Part 3: 
